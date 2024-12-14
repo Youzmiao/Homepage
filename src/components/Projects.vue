@@ -51,7 +51,7 @@ const projects = [
 
 <style scoped>
 /* 调整卡片布局间距 */
-.group {
+.group {  
   width: 300px; /* 控制每个卡片宽度 */
 }
 </style>

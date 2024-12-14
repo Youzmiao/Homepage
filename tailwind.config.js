@@ -13,6 +13,8 @@ export default {
       },
       fontFamily: {
         'fredericka': ['"Fredericka the Great"', 'cursive'],
+        'MaShanZheng': ['"Ma Shan Zheng"', 'serif'],
+        'HuangYou': ['"ZCOOL QingKe HuangYou"', 'serif'],
       },
     }
   },

@@ -12,7 +12,7 @@
                 <li v-for="(item, index) in navItems" :key="index">  <!-- 动态生成导航项 -->
                     <a @click.prevent="scrollToSection(item.href)"  
                        :href="item.href"  
-                       class="inline-block py-4 relative group cursor-pointer"
+                       class="inline-block py-3 relative group cursor-pointer font-HuangYou"
                        :class="[item.active ? 'text-amber-500 font-medium' : 'text-[rgb(235,231,231)] hover:text-amber-500 transition-colors']"  
                     >
                         {{ item.text }}  <!-- 显示导航项文字 -->
