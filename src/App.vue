@@ -8,6 +8,7 @@
     <ProjectsSection id="projects" />
     <BlogSection id="blog" />
     <ContactSection id="contact" />
+    <Test id="test"/>
   </div> 
 </template>
 
@@ -19,6 +20,7 @@ import AboutSection from './components/About.vue'
 import ProjectsSection from './components/Projects.vue'
 import BlogSection from './components/Blog.vue'
 import ContactSection from './components/Contact.vue'
+import Test from './components/test.vue'
 
 import bgImage from './assets/bg.jpg'
 const isScrolledPastNav = ref(false)
