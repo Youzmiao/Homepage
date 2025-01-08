@@ -1,0 +1,12 @@
+/* 或者你的全局样式文件 */
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* 确保所有主要内容组件在背景之上 */
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}

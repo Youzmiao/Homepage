@@ -1,25 +1,39 @@
 <template>
-  <div class="min-h-screen  bg-center bg-fixed bg-[#1a191d]">
-    <Nav />
+  <div class="app">
+    <Background />
     <Home />
     <Expertise />
-    <Skils />
-
-
+    <Skills />
+    <Project />
     <Contact />
+    <!-- 其他内容 -->
   </div>
-
 </template>
 
-
 <script setup>
-import Nav from "./components/Nav.vue";
-import Home from "./components/Home.vue";
-import Contact from "./components/Contact.vue";
-import Expertise from "./components/Expertise.vue";
-import Skils from "./components/Skils.vue";
+import Background from './components/Background.vue'
+import Home from './components/Home.vue'
+import Expertise from './components/Expertise.vue'
+import Skills from './components/Skills.vue'
+import Project from './components/Project.vue'
+import Contact from './components/Contact.vue'
+
 </script>
 
+<style>
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
 
+/* 重置一些默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-<style scoped></style>
+body {
+  overflow-x: hidden;
+}
+</style>

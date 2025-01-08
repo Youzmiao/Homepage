@@ -9,11 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
+    "three": "^0.172.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "latest",
+    "gsap": "^3.12.5",
     "postcss": "latest",
     "tailwindcss": "latest",
     "vite": "^6.0.1",

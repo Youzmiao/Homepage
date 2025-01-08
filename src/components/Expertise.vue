@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center w-full px-36">
+    <div class="flex justify-center w-full px-36 ">
         <div class="text-white flex justify-between">
             <!-- 第一个卡片 -->
             <div class="basis-1/3 border-gray-300 border-y-2 border-l-[2px] px-[32px] py-[56px]">
@@ -10,17 +10,16 @@
                     <!-- 增大标题字体并右对齐 -->
                     <h3 class="text-2xl">
                         <span class="font-bold text-neutral-50">Fast</span>
-
                     </h3>
                 </div>
-                <p  v-text="'<h2>'" class="pb-[10px] text-[#5c5b5e]"></p>
+                <p v-text="'<h2>'" class="pb-[10px] text-[#5c5b5e]"></p>
                 <div class="border-[#5c5b5e] border-l-2 pl-4 ml-[20px]">
                     <p class="text-neutral-100">
                         Experienced in developing both front-end and back-end technologies. Python,
                         Ruby, JavaScript, TypeScript.
                     </p>
                 </div>
-                <p  v-text="'<h2>'" class="pt-[10px] text-[#5c5b5e]"></p>
+                <p v-text="'<h2>'" class="pt-[10px] text-[#5c5b5e]"></p>
 
             </div>
 
@@ -33,10 +32,14 @@
 
                     </h3>
                 </div>
-                <p class="text-neutral-100">
-                    Passionate about UI/UX. Over 5 years of development experience in HTML, CSS,
-                    JS, React, and NextJS frameworks.
-                </p>
+                <p v-text="'<h2>'" class="pb-[10px] text-[#5c5b5e]"></p>
+                <div class="border-[#5c5b5e] border-l-2 pl-4 ml-[20px]">
+                    <p class="text-neutral-100">
+                        Experienced in developing both front-end and back-end technologies. Python,
+                        Ruby, JavaScript, TypeScript.
+                    </p>
+                </div>
+                <p v-text="'<h2>'" class="pt-[10px] text-[#5c5b5e]"></p>
             </div>
 
             <!-- 第三个卡片 -->
@@ -48,13 +51,17 @@
 
                     </h3>
                 </div>
-                <p class="text-neutral-100">
-                    Skilled in creating and designing high-end visuals and animations with CSS3 and
-                    WebGL.
-                </p>
+                <p v-text="'<h2>'" class="pb-[10px] text-[#5c5b5e]"></p>
+                <div class="border-[#5c5b5e] border-l-2 pl-4 ml-[20px]">
+                    <p class="text-neutral-100">
+                        Experienced in developing both front-end and back-end technologies. Python,
+                        Ruby, JavaScript, TypeScript.
+                    </p>
+                </div>
+                <p v-text="'<h2>'" class="pt-[10px] text-[#5c5b5e]"></p>
             </div>
 
-            
+
         </div>
     </div>
 </template>

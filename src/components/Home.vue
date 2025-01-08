@@ -1,30 +1,29 @@
 <template>
-  <!-- 添加背景渐变类 -->
-  <div class="flex justify-center pt-44 min-h-screen bg-gradient-to-b from-[#052631] via-[#0c232c] to-[#1a191d]">
 
-    <!-- 主要内容 -->
-    <div class="w-1/3 flex flex-col items-center justify-center px-4 py-20">
-      <div :class="{ 'translate-y-0 opacity-100': isVisible, 'translate-y-10 opacity-0': !isVisible }"
-        class="transform transition-all duration-1000">
-        <!-- 调整文字颜色以适应深色背景 -->
-        <h1 class="text-4xl md:text-6xl text-white text-center mb-4 font-bold">
-          Hello, I'm
-          <span class="font-semibold">Youz_</span>
-        </h1>
-        <!-- 调整打字文本的颜色 -->
-        <p class="text-2xl md:text-4xl text-gray-200 text-center mb-12 h-12">
-          {{ typedText }}<span class="animate-pulse">|</span>
-        </p>
-        <div class="flex justify-center mt-[200px]">
-          <a href="#work"
-            class="inline-flex items-center px-6 py-2 text-lg border-2 tracking-wide border-white text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-105 hover:shadow-lg">
-            View my work
-          </a>
-        </div>
+
+  <!-- 主要内容 -->
+  <div class="flex flex-col items-center justify-center px-4 py-20 h-min-screen">
+    <div :class="{ 'translate-y-0 opacity-100': isVisible, 'translate-y-10 opacity-0': !isVisible }"
+      class="transform transition-all duration-1000">
+      <!-- 调整文字颜色以适应深色背景 -->
+      <h1 class="text-4xl md:text-6xl text-white text-center mb-4 font-bold">
+        Hello, I'm
+        <span class="font-semibold">Youz_</span>
+      </h1>
+      <!-- 调整打字文本的颜色 -->
+      <p class="text-2xl md:text-4xl text-gray-200 text-center mb-12 h-12">
+        {{ typedText }}<span class="animate-pulse">|</span>
+      </p>
+      <div class="flex justify-center mt-[200px]">
+        <a href="#work"
+          class="inline-flex items-center px-6 py-2 text-lg border-2 tracking-wide border-white text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+          View my work
+        </a>
       </div>
     </div>
-
   </div>
+
+
 </template>
 
 <script setup>
